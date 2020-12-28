@@ -8,7 +8,7 @@ function polindromChecker(str) {
 }
 
 if (polindromChecker("abba")) {
-    console.log("Palindrom");
+    console.log("Palindrom")
 } else {
-    console.log("Bukan Palindrom");
+    console.log("Bukan Palindrom")
 }
