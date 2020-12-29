@@ -1,14 +1,13 @@
 function polindromChecker(str) {  
-    var word = str.length;
-    for (var i = 0; i<word / 2; i++) {
-        if (str.charAt(i) !== str.charAt(word - 1 - i)) {
-            return false;
+    for (var i = 0; i<str.length / 2; i++) {
+        if (str.charAt(i) !== str.charAt(str.length - 1 - i)) {
+            return false
         }
-    }return true;
+    }return true
 }
 
-if (polindromChecker("abba")) {
+if (polindromChecker("malam")) {
     console.log("Palindrom")
 } else {
-    console.log("Bukan Palindrom")
+    console.log("Not Palindrom")
 }
